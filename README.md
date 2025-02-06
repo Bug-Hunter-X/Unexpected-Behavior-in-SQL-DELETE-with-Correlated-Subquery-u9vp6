@@ -1,0 +1,1 @@
+This repository demonstrates a potential issue with correlated subqueries within SQL DELETE statements.  The original `bug.sql` file contains a query that might exhibit unexpected behavior due to database-specific optimization or concurrency issues. The `bugSolution.sql` file shows a more robust approach to avoid this problem.
